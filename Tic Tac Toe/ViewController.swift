@@ -34,6 +34,7 @@ class ViewController: UIViewController {
                 button.hidden = false
                 if turnCounter % 2 == 0 && turnCounter < 8{
                     button.text = "X"
+                    print("X")
                     turnCounter = turnCounter + 1
                     winCheck()
                 }
